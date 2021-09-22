@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="mctRecapRep" targetNamespace="http://tempuri.org/mctRecapRep.xsd" xmlns:mstns="http://tempuri.org/mctRecapRep.xsd" xmlns="http://tempuri.org/mctRecapRep.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="mctRecapRep" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="mctRecapRep" msprop:Generator_UserDSName="mctRecapRep">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="mctRecap" msprop:Generator_TableClassName="mctRecapDataTable" msprop:Generator_TableVarName="tablemctRecap" msprop:Generator_RowChangedName="mctRecapRowChanged" msprop:Generator_TablePropName="mctRecap" msprop:Generator_RowDeletingName="mctRecapRowDeleting" msprop:Generator_RowChangingName="mctRecapRowChanging" msprop:Generator_RowEvHandlerName="mctRecapRowChangeEventHandler" msprop:Generator_RowDeletedName="mctRecapRowDeleted" msprop:Generator_RowClassName="mctRecapRow" msprop:Generator_UserTableName="mctRecap" msprop:Generator_RowEvArgName="mctRecapRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Itemcode" msprop:Generator_ColumnVarNameInTable="columnItemcode" msprop:Generator_ColumnPropNameInRow="Itemcode" msprop:Generator_ColumnPropNameInTable="ItemcodeColumn" msprop:Generator_UserColumnName="Itemcode" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="preUnit" msprop:Generator_ColumnVarNameInTable="columnpreUnit" msprop:Generator_ColumnPropNameInRow="preUnit" msprop:Generator_ColumnPropNameInTable="preUnitColumn" msprop:Generator_UserColumnName="preUnit" type="xs:long" minOccurs="0" />
+              <xs:element name="prevamount" msprop:Generator_ColumnVarNameInTable="columnprevamount" msprop:Generator_ColumnPropNameInRow="prevamount" msprop:Generator_ColumnPropNameInTable="prevamountColumn" msprop:Generator_UserColumnName="prevamount" type="xs:double" minOccurs="0" />
+              <xs:element name="Receipt" msprop:Generator_ColumnVarNameInTable="columnReceipt" msprop:Generator_ColumnPropNameInRow="Receipt" msprop:Generator_ColumnPropNameInTable="ReceiptColumn" msprop:Generator_UserColumnName="Receipt" type="xs:long" minOccurs="0" />
+              <xs:element name="Issuance" msprop:Generator_ColumnVarNameInTable="columnIssuance" msprop:Generator_ColumnPropNameInRow="Issuance" msprop:Generator_ColumnPropNameInTable="IssuanceColumn" msprop:Generator_UserColumnName="Issuance" type="xs:long" minOccurs="0" />
+              <xs:element name="isReturn" msprop:Generator_ColumnVarNameInTable="columnisReturn" msprop:Generator_ColumnPropNameInRow="isReturn" msprop:Generator_ColumnPropNameInTable="isReturnColumn" msprop:Generator_UserColumnName="isReturn" type="xs:long" minOccurs="0" />
+              <xs:element name="presUnit" msprop:Generator_ColumnVarNameInTable="columnpresUnit" msprop:Generator_ColumnPropNameInRow="presUnit" msprop:Generator_ColumnPropNameInTable="presUnitColumn" msprop:Generator_UserColumnName="presUnit" type="xs:long" minOccurs="0" />
+              <xs:element name="presAmount" msprop:Generator_ColumnVarNameInTable="columnpresAmount" msprop:Generator_ColumnPropNameInRow="presAmount" msprop:Generator_ColumnPropNameInTable="presAmountColumn" msprop:Generator_UserColumnName="presAmount" type="xs:double" minOccurs="0" />
+              <xs:element name="Average" msprop:Generator_ColumnVarNameInTable="columnAverage" msprop:Generator_ColumnPropNameInRow="Average" msprop:Generator_ColumnPropNameInTable="AverageColumn" msprop:Generator_UserColumnName="Average" type="xs:double" minOccurs="0" />
+              <xs:element name="datecovered" msprop:Generator_ColumnVarNameInTable="columndatecovered" msprop:Generator_ColumnPropNameInRow="datecovered" msprop:Generator_ColumnPropNameInTable="datecoveredColumn" msprop:Generator_UserColumnName="datecovered" type="xs:string" minOccurs="0" />
+              <xs:element name="tmp" msprop:Generator_ColumnVarNameInTable="columntmp" msprop:Generator_ColumnPropNameInRow="tmp" msprop:Generator_ColumnPropNameInTable="tmpColumn" msprop:Generator_UserColumnName="tmp" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="filterDate" msprop:Generator_TableClassName="filterDateDataTable" msprop:Generator_TableVarName="tablefilterDate" msprop:Generator_RowChangedName="filterDateRowChanged" msprop:Generator_TablePropName="filterDate" msprop:Generator_RowDeletingName="filterDateRowDeleting" msprop:Generator_RowChangingName="filterDateRowChanging" msprop:Generator_RowEvHandlerName="filterDateRowChangeEventHandler" msprop:Generator_RowDeletedName="filterDateRowDeleted" msprop:Generator_RowClassName="filterDateRow" msprop:Generator_UserTableName="filterDate" msprop:Generator_RowEvArgName="filterDateRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="datecovered" msprop:Generator_ColumnVarNameInTable="columndatecovered" msprop:Generator_ColumnPropNameInRow="datecovered" msprop:Generator_ColumnPropNameInTable="datecoveredColumn" msprop:Generator_UserColumnName="datecovered" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
